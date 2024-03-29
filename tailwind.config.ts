@@ -14,6 +14,37 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    colors: {
+      light: {
+        background: {
+          100: "hsl(0, 0%, 98%)"
+        },
+        elements: {
+          primary: "hsl(0, 0%, 100%)"
+        },
+        base: {
+          primary: 'hsl(209, 23%, 22%)',
+        },
+        text: {
+          100: "hsl(0, 0%, 52%)"
+        }
+      },
+      dark: {
+        elements: {
+          primary: 'hsl(209, 23%, 22%)',
+        },
+        background: {
+          100: "hsl(207, 26%, 17%)"
+        },
+        base: {
+          primary: 'hsl(209, 23%, 22%)',
+        },
+        text: {
+          100: "hsl(0, 0%, 100%)"
+        }
+      },
+      
+    },
   },
   plugins: [],
 };
